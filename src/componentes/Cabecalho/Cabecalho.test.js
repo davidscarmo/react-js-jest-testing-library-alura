@@ -1,4 +1,4 @@
-import { react, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import Cabecalho from '.';
 
 test('Deve renderizar o nome do usuário logado', () => {
