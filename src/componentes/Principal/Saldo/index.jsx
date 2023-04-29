@@ -11,7 +11,7 @@ export default function Saldo({ saldo }) {
       </div>
       <div className={estilos.divisor} />
       <p className={estilos.conta}>Conta corrente</p>
-      <p className={estilos.valor}>{`R$ ${saldo}`}</p>
+      <p className={estilos.valor} data-testid={'saldo'}>{`R$ ${saldo}`}</p>
     </div>
   );
 }
